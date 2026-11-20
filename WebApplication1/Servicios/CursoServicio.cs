@@ -10,15 +10,15 @@
             _httpClient = httpClient;
         }
 
-        public async Task<List><CursoDto>> ObtenerCursos()
-        {
-            var resultado = await _httpClient.GetFromJsonAsync<List<CursoDto>>(Ruta);
-            if (resultado == null)
-            {
-                return new List<CursoDto>();
-            }
+        //public async Task<List><CursoDto>> ObtenerCursos()
+        //{
+        //    var resultado = await _httpClient.GetFromJsonAsync<List<CursoDto>>(Ruta);
+        //    if (resultado == null)
+        //    {
+        //        return new List<CursoDto>();
+        //    }
 
-            return resultado.ToList();
-        }
+        //    return resultado.ToList();
+        //}
     }
 }
