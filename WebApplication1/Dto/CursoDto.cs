@@ -9,5 +9,7 @@
 
 
         public int CantidadDeVagos { get; set; }
+
+        public int? NivelId { get; set; }
     }
 }
